@@ -3,8 +3,8 @@
 
 // Website metadata
 export const SITE_URL: string = "https://astrostarter.zank.studio";
-export const SITE_TITLE: string = "Astro Blog";
-export const SITE_DESCRIPTION: string = "Welcome to my website!";
+export const SITE_TITLE: string = "Anoto";
+export const SITE_DESCRIPTION: string = "Anoto website";
 
 // Repo info
 export const REPO: string = "zankhq/astro-starter"; // TODO: Update dynamically
