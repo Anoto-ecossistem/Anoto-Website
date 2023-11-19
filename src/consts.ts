@@ -22,15 +22,15 @@ type Page = {
 
 export const PAGES: Page[] = [
 	{
-		title: "home",
+		title: "About",
 		href: "/",
 	},
 	{
-		title: "Blog",
+		title: "features",
 		href: "/blog",
 	},
 	{
-		title: "About",
+		title: "Dowload",
 		href: "/about",
 	},
 ];
