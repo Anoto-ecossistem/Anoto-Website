@@ -3,13 +3,26 @@
 import translations from "@utils/t.ts";
 import Layout from "@layouts/Layout.astro";
 import Container from "@src/components/Container.astro";
+import Referenceimg from '@assets/images/blog-placeholder-1.jpg'
 
 const t = translations(Astro.url);
 ---
 
 <Layout>
 	<Container class="pt-16">
-		<span set:html={t.home_description} />
-		<img src=""/>
+		<img src={Referenceimg.src} alt="banner home"/> 
+		<br/>
+		<span set:html={t.home_description}/>
+		<h1 class="pt-6">index html</h1>
+		
+		<img src={Referenceimg.src} alt="banner home"/> 
+		<br/>
+		<span set:html={t.home_description}/>
+		<h1 class="pt-6">index html</h1>
+		
+		<img src={Referenceimg.src} alt="banner home"/> 
+		<br/>
+		<span set:html={t.home_description}/>
+		<h1 class="pt-6">index html</h1>
 	</Container>
 </Layout>
