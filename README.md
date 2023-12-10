@@ -5,7 +5,7 @@
 1. Clone the repository:
 
 ```bash
-$ git clone https://github.com/MatheusAlvesPereira/JavaPackageMoon.git
+$ git clone https://github.com/MatheusAlvesPereira/Anoto-Website.git
 ```
 
 2. run `pnpm install`
