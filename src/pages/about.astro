@@ -2,7 +2,7 @@
 import translations from "@utils/t.ts";
 import Layout from "@layouts/Layout.astro";
 import Container from "@src/components/Container.astro";
-import Referenceimg from '@assets/images/blog-placeholder-1.jpg';
+import Referenceimg from '@assets/images/blog-placeholder-2.jpg';
 
 const t = translations(Astro.url);
 ---
@@ -11,10 +11,7 @@ const t = translations(Astro.url);
 	<Container class="pt-16">
 		<img src={Referenceimg.src} />
 		<br/>
-		<p set:html={t.about_description} />
+		<span set:html={t.about_description} />
 		<br/>
-		<img src={Referenceimg.src} />
-		<br/>
-		<p>Text html input</p>
 	</Container>
 </Layout>

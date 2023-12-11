@@ -1,7 +1,7 @@
 ---
 title: "Anotations in App"
 description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
-pubDate: "1"
+pubDate: "2024-02-01 03:25"
 heroImage: "@assets/images/blog-placeholder-1.jpg"
 ---
 
