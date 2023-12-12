@@ -33,6 +33,10 @@ export const PAGES: Page[] = [
 		title: "Dowload",
 		href: "/about",
 	},
+	{
+		title: "Develop",
+		href: "/dev",
+	}
 ];
 
 // i18n
