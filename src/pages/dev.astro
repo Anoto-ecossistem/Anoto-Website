@@ -1,0 +1,20 @@
+---
+import translations from "@utils/t.ts";
+import Layout from "@layouts/Layout.astro";
+import Container from "@src/components/Container.astro";
+import Referenceimg from '@assets/images/blog-placeholder-1.jpg';
+
+const t = translations(Astro.url);
+---
+
+<Layout title="Dowload" description="Lorem ipsum dolor sit amet">
+	<Container class="pt-16">
+
+		<img src={Referenceimg.src} />
+		<br/>
+		<p>
+            
+        </p>
+		<br/>
+	</Container>
+</Layout>
