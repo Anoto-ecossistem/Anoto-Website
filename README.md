@@ -51,3 +51,7 @@ This project use the template [Astro-starter](https://github.com/zankhq/astro-st
 ### About Astro.js...
 
 Check out [Astro documentation](https://docs.astro.build) 
+
+### Check the AnotoApp...
+
+[AnotoApp](https://github.com/MatheusAlvesPereira/Anoto-App)
