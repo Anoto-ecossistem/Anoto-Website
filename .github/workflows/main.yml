@@ -6,12 +6,5 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-    - checkout: self
-    
-    - task: Node@20
-      inputs:
-        versionSpec: '20.10.0'
-
-    - script: |
-        npm install
-      displayName: 'Install Node'
+    -script: npm install
+    displayName: 'Install Node'
