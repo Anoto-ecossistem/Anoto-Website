@@ -3,7 +3,8 @@ trigger:
 - dev
 
 jobs:
-- job: Build
+
+Build:
   pool:
     vmImage: 'ubuntu-latest'
   steps:
