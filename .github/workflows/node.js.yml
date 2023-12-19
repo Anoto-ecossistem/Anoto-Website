@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: subdir/package.json
+        cache-dependency-path: /pnpm-lock.yaml
     - run: npm install
     - run: pnpm install
     
