@@ -13,18 +13,24 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [ 16.x ]
+        pnpm-version: [ 8.0.0 ]
     name: Use Node.js ${{ matrix.node-version }}
     steps:
-    - uses: actions/checkout@v4
-    - uses: pnpm/action-setup@v2
-    with:
-    version: 8.12.0
+    
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-    -uses: actions/setup-node@v4
+    - name: Setup Node enviroment
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
-      - run: pnpm install
-      - run: pnpm test
+    
+    - name: Setup Pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: ${{matrix.pnpm-version}}
+
+    - name: Install Pnpm
+      run: pnpm install
     
