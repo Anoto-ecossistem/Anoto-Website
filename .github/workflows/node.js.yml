@@ -13,8 +13,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
-        pnpm-version: [5.0.0, 6.0.0, 7.0.0]
+        node-version: [ 16.x]
+        pnpm-version: [ 8.0.0]
     name: Use Node.js ${{ matrix.node-version }}
     steps:
     
