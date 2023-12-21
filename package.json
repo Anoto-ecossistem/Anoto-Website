@@ -17,7 +17,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
-		"build": "npm run pwa:generate-assets && astro build",
+		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
 		"pwa:generate-assets": "pwa-assets-generator --preset minimal public/logo.svg"
