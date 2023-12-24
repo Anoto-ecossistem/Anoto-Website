@@ -39,6 +39,8 @@ Inside of your Astro project, you'll see the following folders and files:
 │   ├── utils/
 │   └── consts.ts/
 ├── astro.config.mjs
+├── CONTRIBUTING.md
+├── LICENSE
 ├── README.md
 ├── package.json
 ├── .prettierrc
