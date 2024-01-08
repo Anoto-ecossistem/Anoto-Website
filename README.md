@@ -1,5 +1,11 @@
 <h1 align="center"> Anoto Website</h1>
 
+### Preview
+![Captura de tela 2023-12-30 182503](https://github.com/MatheusAlvesPereira/Anoto-Website/assets/99885299/c376ae19-076a-49cf-9591-48f309d66ada)
+![Captura de tela 2023-12-30 182520](https://github.com/MatheusAlvesPereira/Anoto-Website/assets/99885299/e5d3fa5a-02bd-480a-9867-29a9140261af)
+![Captura de tela 2023-12-30 182609](https://github.com/MatheusAlvesPereira/Anoto-Website/assets/99885299/a6914fb9-29e7-4033-803b-7d77cfdb9519)
+![Captura de tela 2023-12-30 183214](https://github.com/MatheusAlvesPereira/Anoto-Website/assets/99885299/b320e813-9f36-4de5-b024-696bb56637fe)
+
 ## Installation
 
 1. Clone the repository:
@@ -58,10 +64,5 @@ Check out [Astro documentation](https://docs.astro.build)
 
 [AnotoApp](https://github.com/MatheusAlvesPereira/Anoto-App)
 
-### Preview
-![Captura de tela 2023-12-30 182503](https://github.com/MatheusAlvesPereira/Anoto-Website/assets/99885299/c376ae19-076a-49cf-9591-48f309d66ada)
-![Captura de tela 2023-12-30 182520](https://github.com/MatheusAlvesPereira/Anoto-Website/assets/99885299/e5d3fa5a-02bd-480a-9867-29a9140261af)
-![Captura de tela 2023-12-30 182609](https://github.com/MatheusAlvesPereira/Anoto-Website/assets/99885299/a6914fb9-29e7-4033-803b-7d77cfdb9519)
-![Captura de tela 2023-12-30 183214](https://github.com/MatheusAlvesPereira/Anoto-Website/assets/99885299/b320e813-9f36-4de5-b024-696bb56637fe)
 
 
