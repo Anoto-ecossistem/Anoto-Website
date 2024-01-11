@@ -38,12 +38,14 @@ Inside of your Astro project, you'll see the following folders and files:
 │   ├── styles/
 │   ├── utils/
 │   └── consts.ts/
+│   └── env.d.ts/
+├── .prettierrc
 ├── astro.config.mjs
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── README.md
 ├── package.json
-├── .prettierrc
+├── pnpm-lock.yaml
+├── README.md
 ├── tailwind.config.cjs
 └── tsconfig.json
 ```
